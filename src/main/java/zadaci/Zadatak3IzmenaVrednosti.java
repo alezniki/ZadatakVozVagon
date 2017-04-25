@@ -40,7 +40,7 @@ public class Zadatak3IzmenaVrednosti {
             listaVagona = vagonDao.queryForAll();
             System.out.println("Svi vagoni iz baze posle izmene: ");
             for (Vagon vagon : listaVagona) System.out.println(vagon);
-            
+
 
         } catch (SQLException e) {
             e.printStackTrace();
