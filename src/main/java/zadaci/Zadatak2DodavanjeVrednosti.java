@@ -54,7 +54,7 @@ public class Zadatak2DodavanjeVrednosti {
             vagonDao.create(vagon4);
             vagon5.setVoz(voz2);
             vagonDao.create(vagon5);
-            
+
             List<Voz> listaVozova = vozDao.queryForAll();
             System.out.println("Svi vozovi iz baze: ");
             for (Voz voz : listaVozova) System.out.println(voz);
