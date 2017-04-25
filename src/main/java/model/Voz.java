@@ -65,4 +65,10 @@ public class Voz {
     public void setVagon(ForeignCollection<Vagon> vagon) {
         this.vagon = vagon;
     }
+
+
+    @Override
+    public String toString() {
+        return "VOZ: " + "Id: " + id + ", Oznaka: " + oznaka + ", Naziv: " + naziv;
+    }
 }
